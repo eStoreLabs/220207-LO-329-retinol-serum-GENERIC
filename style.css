@@ -415,13 +415,14 @@
   align-items: center;
 }
 #es-loreal.es-loreal .es-obligations__single {
-  width: 50%;
+  width: 45%;
   min-width: 300px;
   height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   align-items: flex-end;
+  margin: 3.5px;
 }
 #es-loreal.es-loreal .es-obligations__single--1 {
   background-image: url(/images/obligations-bg-1.png);
@@ -440,6 +441,7 @@
   text-transform: uppercase;
   text-shadow: 2px -1px 19px rgb(66, 68, 90);
   padding: 10px;
+  font-weight: bolder;
 }
 #es-loreal.es-loreal .es-footer {
   margin: 50px 0;

@@ -399,13 +399,14 @@
             align-items: center;
         }
         &__single{
-            width: 50%;
+            width: 45%;
             min-width: 300px;
             height: 200px;
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
             align-items: flex-end;
+            margin: 3.5px;
             &--1{
                 background-image: url(/images/obligations-bg-1.png);
             }
@@ -424,6 +425,7 @@
             text-transform: uppercase;
             text-shadow: 2px -1px 19px rgba(66, 68, 90, 1);
             padding: 10px;
+            font-weight: bolder;
         }
     }
     .es-footer{
